@@ -222,6 +222,8 @@ Expression:
 ```text
 @addToTime(concat(variables('v_date'),'-01'),1,'Month')
 ```
+
+```
 CREATE TABLE [ProjectWarehouse].[metadata].[processing_log]
 (
 	[pipeline_run_id] [varchar](255) NULL,
@@ -231,6 +233,7 @@ CREATE TABLE [ProjectWarehouse].[metadata].[processing_log]
 	[processed_datetime] [datetime2](6) NULL
 )
 GO
+```
 ---
 
 # Step 5: Staging Metadata Logging
