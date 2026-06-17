@@ -152,6 +152,12 @@ pl_stg_process_nyctaxi
 | Schema        | stg             |
 | Table         | nyctaxi_yellow  |
 
+Destination
+
+###Pre copy script: 
+
+delete from stg.nyctaxi_yellow
+
 ### Dynamic File Name
 
 Variable:
