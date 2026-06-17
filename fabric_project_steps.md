@@ -223,6 +223,10 @@ Expression:
 @addToTime(concat(variables('v_date'),'-01'),1,'Month')
 ```
 
+
+```
+create schema metadata;
+```
 ```
 CREATE TABLE [ProjectWarehouse].[metadata].[processing_log]
 (
